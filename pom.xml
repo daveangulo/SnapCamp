@@ -135,6 +135,11 @@
       <artifactId>mail</artifactId>
       <version>1.4.1</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-core</artifactId>
+      <version>3.0.1</version>
+    </dependency>
     <!-- for LiftConsole -->
     <dependency>
       <groupId>org.scala-lang</groupId>

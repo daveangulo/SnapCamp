@@ -45,7 +45,7 @@ object DbTestDataGenerator {
     def rndStr = UUID.randomUUID.toString
     def rndLong = (Math.random * 1000).asInstanceOf[Long]
 
-    def genFootprintFeed = {
+    def genFootprintFeed: FootprintFeed = {
       val subject = XML.loadFile("src/test/resources/sampleData0.1.r1254.xml")
       FootprintFeed.fromXML(subject)
     }
